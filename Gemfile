@@ -46,7 +46,6 @@ gem "bootsnap", require: false
 # gem "sassc-rails"
 
 gem "shoelace-rails-ui", path: "/Users/schwad/Documents/personal/shoelace"
-gem 'shoelace-rails', git: "https://github.com/yuki24/shoelace-rails.git"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

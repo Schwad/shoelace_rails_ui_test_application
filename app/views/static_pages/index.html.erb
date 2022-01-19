@@ -1,6 +1,4 @@
-wutup
-
-
+<h2> Example Component </h2>
 
 <%= sl_alert open: true, variant: "warning" do %>
   This one is generated from shoelace rails ui
@@ -15,4 +13,24 @@ wutup
 
  %>
 
- <%= link_to "hello", "https://google.com" %>
+<h2> Example Form </h2>
+
+<%# sl_form_with url: does not currently work %>
+
+<%= sl_form_for User.new do |form| %>
+  <%  # Text input: https://shoelace.style/components/input %>
+  <%= form.text_field :name %>
+  <%= form.password_field :password, placeholder: "Password Toggle", 'toggle-password': true %>
+
+  <%  # Radio buttons: https://shoelace.style/components/color-picker %>
+  <%= form.color_field :color %>
+
+  <%  # Radio buttons: https://shoelace.style/components/radio %>
+  <%= form.collection_radio_buttons :status, { id_1: "Option 1", id_2: "Option 2", id_3: "Option 3" }, :first, :last %>
+
+  <%  # Select: https://shoelace.style/components/select %>
+  <%= form.collection_select :tag, { id_1: "Option 1", id_2: "Option 2", id_3: "Option 3" }, :first, :last, {}, { placeholder: "Select one" } %>
+
+  <%= form.submit %>
+<% end %>
+
