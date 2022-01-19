@@ -1,3 +1,9 @@
+PATH
+  remote: /Users/schwad/Documents/personal/shoelace
+  specs:
+    shoelace-rails-ui (0.1.0)
+      rails (>= 7.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -212,6 +218,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-darwin-20
 
 DEPENDENCIES
   bootsnap
@@ -223,6 +230,7 @@ DEPENDENCIES
   rails (~> 7.0.0)
   redis (~> 4.0)
   selenium-webdriver
+  shoelace-rails-ui!
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails

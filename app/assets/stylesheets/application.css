@@ -12,4 +12,5 @@
  *
  *= require_tree .
  *= require_self
+ *= require sl_styles_light.css
  */
