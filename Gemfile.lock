@@ -1,8 +1,17 @@
+GIT
+  remote: https://github.com/yuki24/shoelace-rails.git
+  revision: 5138073d87ce0e186cea80500c6dba9aaa860a9c
+  specs:
+    shoelace-rails (0.1.0)
+      actionpack (>= 5.2.0)
+      actionview (>= 5.2.0)
+
 PATH
   remote: /Users/schwad/Documents/personal/shoelace
   specs:
     shoelace-rails-ui (0.1.0)
       rails (>= 7.0.1)
+      shoelace-rails
 
 GEM
   remote: https://rubygems.org/
@@ -230,6 +239,7 @@ DEPENDENCIES
   rails (~> 7.0.0)
   redis (~> 4.0)
   selenium-webdriver
+  shoelace-rails!
   shoelace-rails-ui!
   sprockets-rails
   sqlite3 (~> 1.4)
