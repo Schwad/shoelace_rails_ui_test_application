@@ -6,6 +6,11 @@
 
 # Kevin Pair
 
+# (Shareable Links)
+
+* https://github.com/Schwad/shoelace-rails-ui
+* https://github.com/Schwad/shoelace_rails_ui_test_application
+
 # CODE GEN
 
 * index.html
@@ -13,6 +18,8 @@
 * regenerate.rb (most 'real work', just piecing it together)
 * shoelace-rails
 * imported into our own
+
+(config actionview defaultformbuilder option --> can set things into form_for)
 
 # PACKAGING
 
@@ -22,6 +29,7 @@
 # DOCUMENTATION
 
 * Likely codegen copycat, but with our own examples. Alternatively we could style it our own way with a different documentation tool
+--> maybe storybook, maybe codegen
 
 # QUESTIONS
 
