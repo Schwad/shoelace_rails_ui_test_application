@@ -1,7 +1,23 @@
-<h2> Example Component </h2>
-
+<strong> Example component </strong>
+<br><br>
 <%= sl_alert open: true, variant: "warning" do %>
   This one is generated from shoelace rails ui
+<% end %>
+<br><br>
+
+<strong> Example nested components </strong>
+<br><br>
+
+<%= sl_details summary: "Toggle me" do %>
+  <br><br>
+
+  <strong> Example header tag alongside shoelace component</strong>
+  <br><br>
+  <h2> Nice one man </h2>
+
+  <%= sl_alert open: true, variant: "warning" do %>
+    This one is generated from within another shoelace component
+  <% end %>
 <% end %>
 
 <%# 
